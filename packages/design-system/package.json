@@ -1,0 +1,19 @@
+{
+    "name": "@alura/design-system",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT",
+    "scripts": {
+        "test": "jest",
+        "lint": "eslint \"./**/*.{ts,tsx}\""
+    },
+    "dependencies": {
+        "styled-components": "^6.1.8"
+    },
+    "devDependencies": {
+        "@alura/test-commons": "*",
+        "@alura/tsconfig-commons": "*",
+        "@alura/eslint-commons": "*"
+    }
+    
+}
